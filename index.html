@@ -4,14 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width_device_width, initial-scale-1.0">
-        <title> Formulario de registro </title>
+        <title> Boton de saludar </title>
+        <script src="scripts.js"></script>
     </head>
 
     <body>
-        <h3>Saludar</h3>
-
-        <form action="#" method="post"> <!-- Crea un formulario que enviará sus datos a la misma página (por el #) y utilizará el método post para enviar los datos del formulario (Los datos enviados NO quedan visibles en la dirección URL para el usuario). -->       
-          <input type="submit" value="Saludar"> <!-- El atributo type="submit" indica que este <input> es un botón de envío. Cuando se hace clic en el botón, se envían los datos del formulario al servidor utilizando el método especificado en el atributo method del elemento <form>. El atributo value="Enviar" especifica el texto o el valor que se mostrará en el botón. En este caso, el texto "Enviar" se mostrará en el botón. -->
-        </form>
+        <button id="botonSaludo" onclick="cartelSaludo()">Saludar</button>
     </body>
 </html>
