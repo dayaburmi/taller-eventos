@@ -1,6 +1,6 @@
 let buton = document.getElementById("botonSaludo")
 
-buton.addEventListener("click", function(event) {
+buton.onclick = function(event) {
     alert("¡Hola!");
     event.stopPropagation(); // Detiene la propagación del evento al div
-})
+}
